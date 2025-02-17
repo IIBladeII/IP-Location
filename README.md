@@ -47,7 +47,7 @@ project/
 
 1. Clone the repository to your local machine:
    ```
-   https://github.com/IIBladeII/IP-Location-Finder.git
+   https://github.com/IIBladeII/IP-Location.git
    ```
 2. Navigate to the project directory:
    ```
