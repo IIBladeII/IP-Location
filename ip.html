@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Pedro-Dev</title>
+    <link rel="stylesheet" href="ip.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+</head>
+<body>
+    
+    
+    <main class="ip-container">
+        <div class="search-container">
+            <h1>IP Location Finder</h1>
+            <div class="input-group">
+                <input type="text" id="ip-input" placeholder="Digite um IP ou domínio (ex: google.com)">
+                <button id="my-ip-btn">MY IP</button>
+                <button id="search-btn">Search</button>
+            </div>
+        </div>
+
+        <div class="result-container" id="result">
+            <div class="result-card">
+                <div class="result-item">
+                    <h3>IP Address</h3>
+                    <p id="ip">-</p>
+                </div>
+                <div class="result-item">
+                    <h3>Location</h3>
+                    <p id="location">-</p>
+                </div>
+                <div class="result-item">
+                    <h3>ISP</h3>
+                    <p id="isp">-</p>
+                </div>
+                <div class="result-item">
+                    <h3>Country</h3>
+                    <p id="country">-</p>
+                </div>
+                <div class="result-item">
+                    <h3>City</h3>
+                    <p id="city">-</p>
+                </div>
+                <div class="result-item">
+                    <h3>Timezone</h3>
+                    <p id="timezone">-</p>
+                </div>
+                <div id="map" class="map-container"></div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Pedro-Dev</h3>
+                <p>Full Stack Web Developer passionate about creating innovative and intuitive web solutions.</p>
+                <div class="footer-social">
+                    <a href="https://github.com/IIBladeII" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/pedro-riccio" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:pedroworkdev@gmail.com" class="social-icon">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/html/projetos.html">Projects</a></li>
+                    <li><a href="/html/contact.html">Contact</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Contact Info</h3>
+                <ul class="footer-contact">
+                    <li>
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:pedroworkdev@gmail.com">pedroworkdev@gmail.com</a>
+                    </li>
+                    <li>
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Bahia, Brazil</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Pedro-Dev. All rights reserved.</p>
+        </div>
+    </footer>
+
+    
+    <script src="ip.js"></script>
+</body>
+</html>
